@@ -1,0 +1,41 @@
+<html>
+	<head> 
+		<title>Sample Calculator</title>
+
+		<link rel="stylesheet" type="text/css" href="css/cal.css">
+	</head>
+
+	<body> 
+
+		<input type="number" placeholder="0" id="disp">
+		<br><br>
+
+		<button onclick="attachNum(this)" class="btn">7</button>
+		<button onclick="attachNum(this)" class="btn">8</button>
+		<button onclick="attachNum(this)" class="btn">9</button>
+
+		<button onclick="doDiv()"class="btn">/</button>
+		<br> <br>
+		<button onclick="attachNum(this)" class="btn">4</button>
+		<button onclick="attachNum(this)" class="btn">5</button>
+		<button onclick="attachNum(this)" class="btn">6</button>
+
+		<button onclick="doMul()"class="btn">*</button>
+		<br> <br>
+		<button onclick="attachNum(this)" class="btn">1</button>
+		<button onclick="attachNum(this)" class="btn">2</button>
+		<button onclick="attachNum(this)" class="btn">3</button>
+
+		<button onclick="doMin()"class="btn">-</button>
+		<br> <br>
+		<button onclick="attachNum(this)" class="btn" id="zer">0</button>
+		<button id="add" onclick="doAdd()" class="btn">+</button>
+		<button id="res" onclick="res()" class="btn">=</button>
+		<button id="del" onclick="del()" class="btn">C</button>
+
+	</body>
+
+	<script type="text/javascript" src="js/cal.js">
+	</script>
+
+</html>
